@@ -1,0 +1,286 @@
+*{font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.container-fluid{
+    background-color:  rgb(240, 220, 195);
+    
+}
+
+header{
+    background-color: rgb(65, 64, 64);
+    justify-content: space-around;
+    
+}
+
+
+.navbar__logo img{
+   max-height: 150px;
+    max-width: 200 px;
+    border: 10px solid rgb(44, 34, 34);
+}
+
+.nav-item{
+    color: bisque;
+}
+
+
+.navbar__item a{
+    color: bisque;
+    transition: .3s ease-in-out;
+    font-size: 20px;
+} 
+
+.navbar__item a:hover{
+    color: aquamarine;
+}
+
+.aside{
+    background-color: rgb(133, 111, 81);
+    color: bisque;
+   
+}
+
+.aside h3{
+    font-size: 40px;
+ }
+ 
+.aside h4{
+    font-size: 30px;
+}
+
+.aside h5{
+    font-size: 20px;
+}
+
+.aside ul{
+    list-style: none;
+}
+
+.aside a{
+   
+    color:bisque;
+}
+.aside a:hover{
+    color: aquamarine;
+}
+
+.start h1{
+    
+    color: rgb(133, 111, 81);
+    font-size: 75px;
+    font-weight: bold;
+    font-style: italic;
+    font-weight: bolder;
+    
+   
+}
+.start h3{
+    color: rgb(133, 111, 81);
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+
+.start p{
+   font-size: 35px;
+   font-style: oblique;
+   font-weight: bold;
+   color: #6d7079;
+    
+    
+}
+
+
+.new{
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+@media only screen and (max-width: 900px) {
+    .new {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+    }
+  }
+
+
+.situation{
+    background-color: lightgrey;
+    color: #383838;
+    width: 120px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid #2b2b2b;
+    position: absolute;
+    top: 0;
+    
+}
+
+.new__item{
+    border: 3px solid grey;
+    background-color: rgb(133, 111, 81);  
+    color: bisque;
+    padding: 15px;
+    margin: 15px;
+    display: block;
+    width: 360px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.new__item img{
+    height: 550px;
+    width: 300px;
+    
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+
+.we h1{
+    color: rgb(88, 87, 87);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.we h3{
+    color: rgb(88, 87, 87);
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.we p{   
+    font-size: 25px;
+
+}
+
+.values{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.value{
+    padding: 15px;
+    margin: 15px;
+    display: block;
+    width: 460px;
+    text-align: center;
+    background-color: rgb(133, 111, 81);
+    color: bisque;
+    border: 5px solid grey;
+}
+
+.value h3{
+    font-size: 40px;
+}
+.value p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.process{
+    font-size: 55px;
+    color: #6d7079;
+    font-weight: bold;
+
+}
+
+.products{  
+    width: auto; 
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap:10px
+    
+}
+
+@media only screen and (min-width:601px) and (max-width: 900px) {
+    .products {
+        grid-template-columns: repeat(2,auto);
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .products {
+        grid-template-columns: repeat(1,auto);
+    }
+  }
+.grid__item{
+    background-color:rgb(133, 111, 81) ;
+    border: 1px solid grey;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card{
+    background-color: lightgrey;
+}
+.card h2{
+    color: #6d7079;
+    font-weight: bold;
+    
+}
+.card img{
+    height: 450px;
+    width: 350px;
+    align-self: center;
+    margin-top: 20px;
+         
+}
+
+
+form{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row label{
+    font-size: 25px;
+    font-weight: bold;
+    color: #6d7079 ;
+}
+
+.row input {
+        border-radius: 6px;
+        border: 2px solid #30343F;
+        height: 45px;
+        width: 244px;
+                
+}
+
+#message{ 
+    border-radius: 6px;
+    border: 2px solid #30343F;
+}
+
+button{
+    border-radius: 6px;
+    border: 2px solid #30343F;
+    background-color:rgb(88, 87, 87) ;
+    color: bisque;
+    height: 30px;
+    width: 80px;
+}
+
+.footer {
+    background-color: #383838;
+    color: bisque;
+    text-align: center;
+     
+}
